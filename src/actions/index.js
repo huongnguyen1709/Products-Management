@@ -75,10 +75,3 @@ export const actUpdateProduct = (product) => {
         product
     }
 }
-
-export const actUpdateWeather = (product) => {
-    return {
-        type: Types.UPDATE_PRODUCT,
-        product
-    }
-}
